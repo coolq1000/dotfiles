@@ -3,6 +3,9 @@ export TERM="xterm-256color"
 
 export PATH=/usr/local/bin:$PATH
 
+# DG language,
+alias dg="python3 -m dg"
+
 if [ "$TMUX" = "" ]; then tmux; fi
 
 # Load Nerd Fonts with Powerlevel9k theme for Zsh
